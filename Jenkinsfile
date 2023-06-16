@@ -5,11 +5,11 @@ pipeline {
              threshold: hudson.model.Result.SUCCESS)
   }
   stages {
-    stage('Junky') {
+    stage('Jinky') {
       steps {
         sh '''
             echo "Hasta La Vista"
-            sleep 90
+            sleep 60
         '''
       }
     }
